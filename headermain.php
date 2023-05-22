@@ -23,27 +23,27 @@
         }
     ?>
 
-<!DOCTYPE html> //Anger dokumenttypen som HTML.
-<html> //Början av HTML-dokumentet.
-<head> //Början av dokumentets huvudsektion.
-    <title>Extreme Relaxation</title> //Anger titeln på webbsidan.
-    <meta charset="UTF-8"> //Anger teckenkodningen för dokumentet.
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> // Anger viewport-inställningar för responsiv design.
-    <link rel="stylesheet" type="text/css" href="föralla.css"> //Länkar till en CSS-stilmall för att formatera webbsidan.
+<!DOCTYPE html> <!--Anger dokumenttypen som HTML.-->
+<html> <!--Början av HTML-dokumentet.-->
+<head> <!--Början av dokumentets huvudsektion.-->
+    <title>Extreme Relaxation</title> <!--Anger titeln på webbsidan.-->
+    <meta charset="UTF-8"> <!--Anger teckenkodningen för dokumentet.-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Anger viewport-inställningar för responsiv design.-->
+    <link rel="stylesheet" type="text/css" href="föralla.css"> <!--Länkar till en CSS-stilmall för att formatera webbsidan.-->
 </head>
-<body> //Början av dokumentets kroppssektion.
+<body> <!--Början av dokumentets kroppssektion.-->
 
-    <header> //36-61: Detta är sidhuvudet för webbplatsen.
+    <header> <!--36-61: Detta är sidhuvudet för webbplatsen.
         Det innehåller ett logo-element med en länk till index.php-sidan.
         Det finns också en navigationsmeny med tre länkar: "Home", "Shop" och "Social Medias".
-        Beroende på om sessionen innehåller en variabel med namnet 'name', visas antingen länkarna "Login" och "Sign Up" eller länken "Logout".
+        Beroende på om sessionen innehåller en variabel med namnet 'name', visas antingen länkarna "Login" och "Sign Up" eller länken "Logout".-->
         
-        <div class="header-container"> //Skapar en behållare för huvudsektionen.
-            <div class="logo"> //Skapar en behållare för logotypen.
-                <a href="index.php"><img src="img/loga.png" alt="Extreme Relaxation Logo"></a> //Skapar en länk med en bildlogotyp.
+        <div class="header-container"> <!--Skapar en behållare för huvudsektionen.-->
+            <div class="logo"> <!--Skapar en behållare för logotypen.-->
+                <a href="index.php"><img src="img/loga.png" alt="Extreme Relaxation Logo"></a> <!--Skapar en länk med en bildlogotyp.-->
             </div>
-            <div class="nav">//Skapar en behållare för navigationsmenyn.
-            <ul>//Skapar en ordnad lista för navigationslänkar.
+            <div class="nav"><!--Skapar en behållare för navigationsmenyn.-->
+            <ul><!--Skapar en ordnad lista för navigationslänkar.-->
     <li><a href="index.php">Home</a></li>
     <li><a href="shop.php">Shop</a></li>
     <li><a href="socialmedias.php">Social Medias</a></li>

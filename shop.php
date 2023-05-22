@@ -1,6 +1,7 @@
 <?php
     include('headermain.php')
 ?>
+<!-- Inkluderar filen "headermain.php" -->
 
         <div class="title">
         <h2>Welcome to the Shop</h2>
