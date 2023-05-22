@@ -1,64 +1,65 @@
+/* Allmän styling för att återställa marginaler, padding och typsnitt till standardvärden för alla element */
 *{
     margin: 0;
     padding: 0;
     font-family: Century Gothic;
 }
-
+/* Stilmall för sidhuvudet */
 header{
     background-color:rgba(255, 255, 255, 0.505);
     height: 15vh;
     border-bottom: solid 5px white;
 }
-
+/* Stilmall för kroppen */
 body{
   background-image: linear-gradient(#6190E8a7, #A7BFE8a7), url(img/15f6a3aac562ee0fadbbad3d4cdf47bc.jpg); 
   background-size: cover;
   background-position: center; 
   height: 100%;
-  margin: 0;
+  margin: 0; /* Ingen yttre marginal för sidokroppen */
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed;/* Bakgrundsbilden är fixerad och rullar inte med innehållet */
 
 }
-
+/* Stilmall för oordnad lista */
 ul{
     list-style-type: none;
     float: left;
-    margin: 25px;
+    margin: 25px; /* Yttre marginal på 25px för listan */
 }
-
+/* Stilmall för varje listelement */
 ul li{
     display: inline-block;
 }
-
+/* Stilmall för länkar inom listelement */
 ul li a{
     text-decoration: none;
     color: white;
-    padding: 5px 20px;
-    border: 1px solid white transparent;
+    padding: 5px 20px; /* Inre utfyllnad på 5px uppåt/nedåt och 20px åt vänster/höger */
+    border: 1px solid white transparent;  /* En transparent vit linje runt länkarna */
 }
-
+/* Stilmall för länkar när muspekaren är över dem */
 ul li a:hover{
     background-color: white;
     color: black;
 }
-
+/* Stilmall för aktivt listelement */
 ul li.active a{
     background-color: white;
     color: black;
 }
-
+/* Stilmall för logotypens bild */
 .logo img{
     float: left;
     width: 150px;
     height: auto;
 }
-
+/* Stilmall för huvudinnehållet */
 .main{
     max-width: 1200px;
     margin: auto;
 }
-
+/* Stilmall för titeln */
 .title{
     position: absolute;
     top: 50%;
@@ -67,33 +68,33 @@ ul li.active a{
     color: white;
 
 }
-
+/* Stilmall för h1-elementet inom titeln */
 .title h1{
     font-size: 50px;
     font-family: "Abril Fatface";
 }
-
+/* Stilmall för den andra delen */
 .andra{
 
     height: 600px;
     background-size: cover;
     background-position: center;
 }
-
+/* Stilmall för h1-elementet inom den andra delen */
 .andra h1{
     color: #ffffff;
     font-size: 40px;
     position: absolute;
     text-emphasis-position: center;
 }
-
+/* Stilmall för h3-elementet inom den andra delen */
 .andra h3{
     color: white;
     font-size: 25px;
-    margin: 0%;
-    padding: 190px 125px;
+    margin: 0%; /* Ingen yttre marginal för h3-elementet */
+    padding: 190px 125px; /* Inre utfyllnad på 190px uppåt/nedåt och 125px åt vänster/höger */
 }
-
+/* Stilmall för videoelementet */
 .video{
     position: absolute;
     top: 50%;
@@ -101,22 +102,23 @@ ul li.active a{
     transform: translate(-50%,-50%);
     border: 5px solid rgba(255, 255, 255, 0.505);
 }
-
+/* Stilmall för titeln */
 .title{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
-
+/* Stilmall för Instagram-logotypen */
 .instagram{
     width: 90px;
 }
+/* Stilmall för YouTube-logotypen */
 .youtube{
 
     width: 210px;
 }
-
+/* Stilmall för h1-, h2- och label-elementen */
 h1, h2, label{
     color: white;
 }
