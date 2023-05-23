@@ -2,7 +2,7 @@
 session_start(); // Startar en session.
 
 
-if(isset($_SESSION['name'])) { // Om sessionen med namnet 'name' finns, fortsätt koden nedan.
+if(isset($_SESSION['name'])) { // Om sessionen med namnet 'name' finns, fortsätt koden.
 
 
 }else{
